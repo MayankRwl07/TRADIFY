@@ -16,7 +16,7 @@ h1{
     padding-bottom:20px;
 }
 .container {
-    text-align:center;
+    justify-content:cenetr:
     display: flex;
     align-items:center:
     gap: 40px;
