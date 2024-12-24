@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image with Box</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://pbs.twimg.com/media/FqssTiOaQAAfOF0.png:large'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: left center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .box {
+            background-color: rgba(7, 34, 2, 0.9); /* Semi-transparent white */
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(3, 27, 11, 0.2);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .box h1 {
+            font-size: 2rem;
+            color: #e4eded;
+            margin-bottom: 1rem;
+        }
+
+        .box p {
+            font-size: 1rem;
+            color: #f6eeee;
+            margin-bottom: 1.5rem;
+        }
+
+        .box button {
+            padding: 0.8rem 1.5rem;
+            background-color: #006400;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .box button:hover {
+            background-color: #004d00;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Welcome to Tradify quiz </h1>
+        <p>Learn trading skills to achieve financial independence.</p>
+        <a href="quiz.html" style="text-decoration: none;">
+            <button> Start quiz</button>
+        
+</body>
+</html>

@@ -1,0 +1,32 @@
+.contact-content {
+
+
+
+    /* height: 400px; */
+    background:radial-gradient(#fafafa, #d7f5d3, #d3c7c7);
+    padding: 9px;
+
+
+    display: block;
+    z-index: -1;
+    margin: 30px;
+   
+
+}
+
+.contact-content::after {
+
+    content: "";
+    background-image: url('../image/logo2.jpeg');
+    width: 100%;
+    position: absolute;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+    top :0;
+}
+.contact-form{
+
+
+    height: 60vh;
+}

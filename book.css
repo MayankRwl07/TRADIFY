@@ -1,0 +1,48 @@
+.books{
+    
+    margin-top: 23px;
+    padding: 30px;
+}
+
+
+
+.book {
+    display: flex;
+    padding: 40PX;
+}
+
+.bookimage img {
+    width: 300px;
+}
+
+.bookcontent {
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    padding: 10px;
+
+
+
+}
+.bookcontent a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.bookcontent h1{
+
+      font-size:50px;
+      color: rgb(255, 251, 251);
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     /* background-color: rgb(50, 68, 49,1.0);; */
+}
+
+.bookscontent h1{
+    
+    padding: 15px;
+    margin: 10px;
+
+
+
+
+}

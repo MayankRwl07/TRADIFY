@@ -1,0 +1,246 @@
+/* for remove spaceing */
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+/*body{
+     background: radial-gradient(circle at top left, #0000ff, #0044cc, #000000);
+      background-color: radial-gradient(#0000ff, #0044cc, #000000);
+}*/
+
+.heading {
+
+    border: 2px;
+    background-color: rgb(50, 68, 49);
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+.nav {
+
+
+
+    height: 100px;
+    background-color: rgb(50, 68, 49,1.0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+.navleft {
+
+
+
+
+    font-size: 10px;
+    display: flex;
+
+}
+
+
+.navleft ul {
+
+    display: flex;
+
+}
+
+
+
+.navleft ul li {
+
+    padding: 15px;
+    height: 20px;
+    list-style: none;
+
+    margin: 0 15px;
+
+    font-weight: bolder;
+
+
+
+}
+
+.navleft ul li a:hover {
+    color: white;
+    background-color: #ed4646;
+
+}
+
+
+.navleft ul li a {
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    color: black;
+    font-size: 30px;
+
+}
+
+.navleft img {
+    height: 330x;
+    /* width: 100px;
+  */
+
+    padding: 25px;
+
+}
+
+
+
+
+.navright {
+
+
+
+
+
+    font-size: 20px;
+}
+
+
+
+.content {
+
+
+
+    height: 400px;
+    background:radial-gradient(#fafafa, #d7f5d3, #d3c7c7);
+    padding: 9px;
+
+
+    display: flex;
+
+
+
+}
+
+.content::after {
+
+    content: "";
+    background-image: url('../image/logo2.jpeg');
+    width: 100%;
+    position: absolute;
+    height: inherit;
+    opacity: 0.15;
+}
+
+.leftcontent p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.leftcontent h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.leftcontent {
+    /* width: 50%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightcontent {
+    /* width: 50%; */
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.rightcontent img {
+    height: 350px;
+
+}
+
+.tradearticles {
+    /* height:2000px;  */
+    /* background-color: rgb(50, 68, 49,1.0); */
+    margin-top: 23px;
+    padding: 30px;
+    position: relative;
+}
+
+.year{
+    position:absolute;
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    right: 415px;
+    top:100px
+
+
+}
+
+/* .tradearticles::after {
+
+
+    tradearticles: "";
+
+    background-image: url('../image/LOGO2.jpeg');
+    width: 100%;
+    position: absolute;
+    height: inherit;
+    opacity: 0.15;
+} */
+
+
+.tradearticle {
+    display: flex;
+    padding: 40PX;
+}
+
+.tradearticleimage img {
+    width: 300px;
+}
+
+.tradearticlecontent {
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    padding: 10px;
+
+
+
+}
+.tradearticlecontent a{
+    text-decoration: none;
+    color:black;
+}
+
+.footer {
+
+
+
+    height: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(50, 68, 49);
+}
+
+.footer p {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    color: rgb(0, 0, 0);
+
+
+}

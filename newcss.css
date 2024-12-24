@@ -1,0 +1,99 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root
+{
+    --main-bgc-olor:rgb(200, 19, 19);
+
+
+
+
+}
+.maxwidth1
+{
+    max-width: 80vw;
+
+
+
+}
+.maxwidth2
+{
+    max-width:  30vw;
+
+
+
+}
+.mauto
+{
+
+
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+.form-input{
+    padding: 2px 3px;
+    padding-top: 3px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 4px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btnn {
+
+    padding:  2px 3px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+
+
+
+
+}
+.btnn:hover{
+    color:white;
+    background-color: rgb(26, 194, 62);
+}
+
+
+.font1{
+
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.my2{
+    margin-bottom: 12px;
+    margin-top: 32px;
+}
+
+.form-box  input ,textarea{
+
+
+   width: 50vw;
+    padding:1px 3px;
+    margin: 9px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgb(19, 34, 21);
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
