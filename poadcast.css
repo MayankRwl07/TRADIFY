@@ -1,0 +1,38 @@
+.poadcastarticles {
+    
+    margin-top: 23px;
+    padding: 30px;
+}
+
+
+
+.poadcastarticle {
+    display: flex;
+    padding: 40PX;
+}
+
+.poadarticleimage img {
+    width: 300px;
+}
+
+.poadarticlecontent {
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    padding: 10px;
+
+
+
+}
+.poadarticlecontent a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.poadcastcontent h1{
+
+      font-size:50px;
+      color: rgb(255, 251, 251);
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: rgb(50, 68, 49,1.0);;
+}

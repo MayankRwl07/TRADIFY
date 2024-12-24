@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="signup.css">
-</head>
-<body>
-    <div class="signup-container">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/008/823/124/non_2x/business-candle-stick-graph-chart-of-stock-market-investment-trading-on-blue-background-bullish-point-up-trend-of-graph-economy-design-vector.jpg');
+           background-size: cover;
+            background-color: #f0f8ff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: rgb(226, 229, 228);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+   
+
+
+    <div class="login-container">
         <form class="signup-form">
-            <img id="logo" src="logo.png" widht="150" height="150">
+            <img id="logo" src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/000/555/709/datas/original.png" widht="150" height="150">
             <h1>Sign Up</h1>
             <div class="form-group">
                 <label for="username">Username :</label>
@@ -31,5 +52,6 @@
             <button type="submit" class="btn" formaction="login.html">Sign Up</button>
         </form>
     </div>
+    </head>
 </body>
 </html>

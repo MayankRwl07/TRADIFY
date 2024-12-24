@@ -1,22 +1,66 @@
+
+
+
 const questions = [
     {
-        question: "Which is the largest animal in the world?",
+        question: "What does a stock represent?",
         answers: [
-            { text: "Shark", correct: false },
-            { text: "Blue Whale", correct: true },
-            { text: "Elephant", correct: false },
-            { text: "Giraffe", correct: false }
+            { text: "ownership", correct: true },
+            { text: "loan", correct: false},
+            { text: "asset", correct: false },
+            { text: "liability", correct: false }
         ]
     },
     {
-        question: "Which is the smallest continent in the world?",
+        question: "What is the first sale of a company’s stock called?",
         answers: [
-            { text: "Asia", correct: false },
-            { text: "Australia", correct: true },
-            { text: "Arctic", correct: false },
-            { text: "Africa", correct: false }
+            { text: " Dividend", correct: false },
+            { text: "IPO", correct: true },
+            { text: "Bond", correct: false },
+            { text: "Equity", correct: false }
+        ]
+    },
+    
+    {
+        question: "What does 'bid price' mean?",
+        answers: [
+            { text: " The price at which you sell", correct: false },
+            { text: "The price at which you buy", correct: true },
+            { text: "The highest price of the day", correct: false },
+            { text: "The lowest price of the day", correct: false }
+        ]
+    },
+    
+    {
+        question: " What does the term margin trading refer to?",
+        answers: [
+            { text: " Trading without any fees", correct: false },
+            { text: "Buying stocks using borrowed money", correct: true },
+            { text: "Selling stocks before owning them", correct: false },
+            { text: "Trading within a fixed time frame", correct: false }
+        ]
+    },
+    {
+        question: " What is the role of SEBI in the stock market?",
+        answers: [
+            { text: " Regulate and protect investor interests", correct: true },
+            { text: " Issue new shares", correct: false },
+            { text: "Determine stock prices", correct: false },
+            { text: "Provide loans for trading", correct: false }
+        ]
+    },
+
+    {
+        question: "What is the term for rapid buying and selling within a single day?",
+        answers: [
+            { text: "Swing trading ", correct: false },
+            { text: "Position trading", correct: false },
+            { text: "Day trading", correct: true },
+            { text: "Investment", correct: false }
         ]
     }
+
+
 ];
 
 const questionElement = document.getElementById("question");
@@ -85,6 +129,7 @@ function showScore() {
     resetState();
     questionElement.textContent = `You scored ${score} out of ${questions.length}!`;
     nextButton.textContent = "Play Again";
+    
     nextButton.style.display = "block";
 }
 
